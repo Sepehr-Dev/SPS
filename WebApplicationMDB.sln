@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3F", "S3F\S3F.csproj", "{1A8B1DAD-161D-492B-935A-641F509D803A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B36F97AB-B593-43C6-9ACE-DB912BDCCD7F} = {B36F97AB-B593-43C6-9ACE-DB912BDCCD7F}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersianTranslation", "PersianTranslation\PersianTranslation.csproj", "{B36F97AB-B593-43C6-9ACE-DB912BDCCD7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A8B1DAD-161D-492B-935A-641F509D803A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A8B1DAD-161D-492B-935A-641F509D803A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A8B1DAD-161D-492B-935A-641F509D803A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A8B1DAD-161D-492B-935A-641F509D803A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36F97AB-B593-43C6-9ACE-DB912BDCCD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36F97AB-B593-43C6-9ACE-DB912BDCCD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36F97AB-B593-43C6-9ACE-DB912BDCCD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36F97AB-B593-43C6-9ACE-DB912BDCCD7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F44C8152-23AC-46E3-9808-65996B2653FC}
+	EndGlobalSection
+EndGlobal
